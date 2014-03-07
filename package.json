@@ -1,5 +1,5 @@
 {
-  "name": "cryptocoincharts-api",
+  "name": "cryptocoincharts",
   "version": "0.0.1",
   "description": "cryptocoincharts.info API client for node.js",
   "main": "cryptocoincharts.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/citizensnips/node-cryptocoincharts-api.git"
+    "url": "https://github.com/citizensnips/node-cryptocoincharts.git"
   },
   "dependencies": {
         "node-rest-client": "0.7.12"
@@ -22,7 +22,7 @@
   "author": "Bret Schuring",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/citizensnips/node-cryptocoincharts-api/issues"
+    "url": "https://github.com/citizensnips/node-cryptocoincharts/issues"
   },
-  "homepage": "https://github.com/citizensnips/node-cryptocoincharts-api"
+  "homepage": "https://github.com/citizensnips/node-cryptocoincharts"
 }
