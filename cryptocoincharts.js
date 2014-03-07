@@ -8,7 +8,7 @@ module.exports.list_coins = function(callback) {
   console.log("Get coin list")
   var req = client.get(base_url + '/listCoins', function(data, response) {
     if(callback) {
-      callback(nil, data);
+      callback(null, data);
     }
   });
 
@@ -21,7 +21,7 @@ module.exports.trading_pair = function(pair, callback) {
   console.log("Get trading pair")
   var req = client.get(base_url + '/tradingPair', function(data, response) {
     if(callback) {
-      callback(nil, data);
+      callback(null, data);
     }
   });
 
@@ -45,7 +45,7 @@ module.exports.trading_pairs = function(pairs, callback) {
   console.log("PUT trading pairs")
   var req = client.put(base_url + '/tradingPairs', args, function(data, response) {
     if(callback) {
-      callback(nil, data);
+      callback(null, data);
     }
   });
 
