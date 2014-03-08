@@ -2,10 +2,7 @@
   "name": "cryptocoincharts",
   "version": "0.0.1",
   "description": "cryptocoincharts.info API client for node.js",
-  "main": "cryptocoincharts.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./lib/cryptocoincharts",
   "repository": {
     "type": "git",
     "url": "https://github.com/citizensnips/node-cryptocoincharts.git"
